@@ -1,0 +1,18 @@
+.Psychologists-Page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Psychologists-Main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.Psychologists-Header {
+  font-size: 30px;
+}

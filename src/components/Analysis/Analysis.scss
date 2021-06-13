@@ -1,0 +1,68 @@
+@import '../../utils/variables.scss';
+.Analysis {
+  display: flex;
+  justify-content: center;
+}
+
+.AnalysisCard {
+  box-sizing: border-box;
+  padding: 20px 20px 24px;
+  width: $psychologist-card-width;
+  height: $psychologist-card-height;
+  border: $border;
+  display: flex;
+  flex-direction: column;
+
+  &-Wrapper {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  &-Wrapper:not(:last-child) {
+    margin-right: 16px;
+    @media (max-width: 1230px) {
+      margin: 0;
+    }
+  }
+
+  &-Title {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    height: 34px;
+    font-size: 16px;
+    font-weight: 700;
+    color: $psychologist-card-black-font-color;
+  }
+
+  &-Info {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+
+.Info {
+  display: flex;
+  flex-direction: column;
+
+  &-Block {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &-Block:not(:first-child) {
+    margin-top: 8px;
+  }
+  
+  &-Name {
+    font-size: 12px;
+    color: $psychologist-card-grey-font-color;
+  }
+
+  &-Value {
+    font-size: 12px;
+    color: $psychologist-card-black-font-color;
+  }
+}
+

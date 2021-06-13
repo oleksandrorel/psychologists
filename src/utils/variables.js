@@ -1,0 +1,1 @@
+export const HEADER_NAVIGATION = ['add', 'psychologists', 'favourite', 'disfavourite', 'analytics'];

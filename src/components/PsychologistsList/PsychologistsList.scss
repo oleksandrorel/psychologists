@@ -1,0 +1,50 @@
+@import '../../utils/variables.scss';
+
+.PsychologistsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  margin: 0 100px;
+
+  &-List {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  &-Actions {
+    margin-top: 10px;
+    display: flex;
+    align-self: start;
+  }
+}
+
+.Actions {
+  &-Block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+  }
+
+  &-Name {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: $font-color;
+  }
+  
+  &-Select {
+    font-family: Mont, sans-serif;
+    height: 40px;
+    width: 210px;
+    border: $border-grey;
+    color: $active-link-color;
+    font-size: 14px;
+  }
+
+  &-Select:focus {
+    outline: none;
+  }
+}
